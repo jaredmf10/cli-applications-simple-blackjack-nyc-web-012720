@@ -33,7 +33,7 @@ end
 def hit?(number)
   prompt_user
   get_user_input
-  number
+  print number
 end
 
 def invalid_command
