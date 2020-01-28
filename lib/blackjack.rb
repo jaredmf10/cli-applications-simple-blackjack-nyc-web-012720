@@ -34,11 +34,11 @@ def hit?(number)
   prompt_user
   get_user_input
   number
-  if get_user_input == "h"
-    deal_card
+  # if get_user_input == "h"
+  #   deal_card
   # elsif get_user_input != "h" || "s"
   #   invalid_command
-  end
+  #end
 end
 
 def invalid_command
